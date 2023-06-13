@@ -13,6 +13,7 @@ function App() {
       {puppies.map((puppy) => {
         return (
           <p
+            className="list"
             onClick={() => {
               setFeatPupId(puppy.id);
             }}
