@@ -23,8 +23,13 @@ function App() {
           </p>
         );
       })}
+      <img
+        src="./public/dog.png"
+        alt="icon of heart around dog"
+        className="icon"
+      ></img>
+
       <div className="featured">
-        <img src="/dog.png"></img>
         {featPupId && (
           <div>
             <h2>{featuredPup.name}</h2>
