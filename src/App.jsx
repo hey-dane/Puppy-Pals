@@ -24,7 +24,7 @@ function App() {
         );
       })}
       <img
-        src="PuppyPals/PuppyPals/src/assets/dog.png"
+        src="src/assets/dog.png"
         alt="icon of heart around dog"
         className="icon"
       ></img>
