@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { puppyList } from "./data.js";
 import "./App.css";
+import "./src/assets/dog.png";
 
 function App() {
   const [puppies, setPuppies] = useState(puppyList);
@@ -24,7 +25,7 @@ function App() {
         );
       })}
       <img
-        src="PuppyPals/PuppyPals/public/dog.png"
+        src="PPuppyPals/PuppyPals/src/assets/dog.png"
         alt="icon of heart around dog"
         className="icon"
       ></img>
