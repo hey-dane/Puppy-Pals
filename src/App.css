@@ -1,9 +1,30 @@
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .list {
   color: burlywood;
   background-color: indigo;
   padding: 2px;
+  width: 300px;
 }
 
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  width: 400px;
+}
+
+.featured,
+ul {
+  text-align: left;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
