@@ -13,6 +13,7 @@ function App() {
       {puppies.map((puppy) => {
         return (
           <p
+            className="list"
             onClick={() => {
               setFeatPupId(puppy.id);
             }}
@@ -22,7 +23,8 @@ function App() {
           </p>
         );
       })}
-      <div>
+      <div className="featured">
+        <img src="/dog.png"></img>
         {featPupId && (
           <div>
             <h2>{featuredPup.name}</h2>
