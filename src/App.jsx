@@ -25,6 +25,7 @@ function App() {
       })}
       <img src="/dog.png" alt="icon of heart around dog" className="icon"></img>
 
+
       <div className="featured">
         {featPupId && (
           <div>
